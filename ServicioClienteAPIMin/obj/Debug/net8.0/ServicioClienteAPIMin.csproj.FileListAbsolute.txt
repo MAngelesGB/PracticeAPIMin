@@ -31,3 +31,4 @@ c:\Users\MAnge\OneDrive\Documentos\estudios\c#\ServicioClienteAPIMin\ServicioCli
 c:\Users\MAnge\OneDrive\Documentos\estudios\c#\ServicioClienteAPIMin\ServicioClienteAPIMin\obj\Debug\net8.0\ServicioClienteAPIMin.pdb
 c:\Users\MAnge\OneDrive\Documentos\estudios\c#\ServicioClienteAPIMin\ServicioClienteAPIMin\obj\Debug\net8.0\ServicioClienteAPIMin.genruntimeconfig.cache
 c:\Users\MAnge\OneDrive\Documentos\estudios\c#\ServicioClienteAPIMin\ServicioClienteAPIMin\obj\Debug\net8.0\ref\ServicioClienteAPIMin.dll
+c:\Users\MAnge\OneDrive\Documentos\estudios\c#\ServicioClienteAPIMin\ServicioClienteAPIMin\obj\Debug\net8.0\ServicioClienteAPIMin.sourcelink.json

@@ -79,10 +79,6 @@ app.MapPut("/UpdateClient/{id}", (int id, UpdateClient req) => {
   if(!fields){
     return Results.BadRequest("Empty or invalid fields");
   }
-  else if(id < 0)
-  {
-    return Results.BadRequest("invalid id");
-  }
   else 
   {
     DataClient? client = obtainClient(id);
@@ -95,11 +91,9 @@ app.MapPut("/UpdateClient/{id}", (int id, UpdateClient req) => {
 });
 
 app.MapDelete("/DeleteClient/{id}", (int id) => {
-  if(id < 0)
-    return Results.BadRequest("invalid id");
   DataClient? client = obtainClient(id);
   if(client is null)
-    return Results.NotFound($"Client {client.Name} not found");
+    return Results.NotFound($"Client not found");
   return Results.Ok($"Client {client.Name} was delete");
 });
 
